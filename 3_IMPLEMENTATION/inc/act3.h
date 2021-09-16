@@ -1,17 +1,6 @@
 #ifndef __ACTIVITY_3_H__
 #define __ACTIVITY_3_H__
-/**
- * @file Activity_3.h
- * @author Vinayak K(vinukaralatti@gmail.com)
- * @brief This is the Header File for Activity_3
- * @version 0.1
- * @date 2021-04-29
- *
- * @copyright Copyright (c) 2021
- *
- */
 
-/**
  * Macro Definitions
  */
 #define PWM_20_PERCENT (205) /**< This is for Output PWM for 20% duty cycle */
