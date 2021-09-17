@@ -1,4 +1,4 @@
-name: Compile-Windows
+name: Compile-Linux
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: Windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -17,5 +17,3 @@ jobs:
       run: sudo apt-get install gcc-avr binutils-avr avr-libc
     - name: Compile
       run: make -C 3_IMPLEMENTATION
-      
-
